@@ -1,4 +1,3 @@
-class Sorting
   def sort(arr) 
     (1...arr.length).each do |i|
       (i + 1..arr.length).each do |j|
@@ -41,4 +40,4 @@ class Sorting
       end
     end
   end
-end
+  puts mergesort([2,4,6,1,7,5,3])
